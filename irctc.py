@@ -11,11 +11,11 @@ browser.visit('https://www.irctc.co.in')
 
 user_id_xpath='//*[@id="usernameId"]'
 user_id = browser.find_by_xpath(user_id_xpath)[0]
-user_id.fill("ramupapa")
+user_id.fill("username")
 
 passwd_xpath = '//*[@id="loginFormId"]/div[1]/div[2]/table[1]/tbody/tr[2]/td[2]/input'
 passwd = browser.find_by_xpath(passwd_xpath)[0]
-passwd.fill("Shaurya1*")
+passwd.fill("password")
 
 #captcha_xpath='//*[@id="nlpAnswer"]'
 #captcha = browser.find_by_xpath(captcha_xpath)[0]
